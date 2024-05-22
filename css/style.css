@@ -1,0 +1,87 @@
+.video-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+  }
+
+
+.my-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    user-select: none; /* Disable text selection */
+    pointer-events: none; /* Disable mouse/touch interactions */
+    /* opacity: 0.7; */
+
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent black */
+  z-index: 1; /* Ensure it's above the video */
+}
+
+.video-container .img {
+  position: absolute;
+  top: 30%;
+  max-width: 550px;
+  z-index: 3;
+}
+
+.img-1 {
+  left: 10%;
+}
+
+.img-2 {
+  left: 50%;
+}
+
+.img-3 {
+  right: 10%;
+  color: white;
+}
+.heroText {
+  right: 10%;
+  top: 20%;
+  color: white;
+}
+
+  .overlay-top::before,
+.overlay-bottom::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 15px;
+  left: 0;
+  z-index: 1;
+}
+
+.overlay-top::before {
+  top: -1px;
+  background: url(../img/overlay-top.png);
+}
+
+.overlay-bottom::after {
+  bottom: -1px;
+  background: url(../img/overlay-bottom.png);
+}
+
+#navbar-transparente {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* Estado opaco */
+#navbar-transparente.navbar-opaco {
+  background-color: white;
+}
