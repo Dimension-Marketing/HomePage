@@ -4,82 +4,101 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dimension Marketing</title>
+    <link rel="shortcut icon" href="img/isologo_black.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
     <!-- Navbar Start -->
-    <div class="p-0 nav-bar" >
-        <nav class="navbar fixed-top navbar-expand-lg bg-none navbar-dark py-1" id="navbar-transparente">
-            <a href="index.html" class="navbar-brand px-lg-3 m-0">
-                <!-- <h1 class="m-0 display-4 text-uppercase text-white">DIMENSION MARKETING</h1> -->
-                <img class="m-0 display-4" src="img/isologo_white.png"  width="50" height="80" id="icono-inicial">
-                <img class="m-0 display-4" src="img/isologo_black.png" style="display:none"  width="50" height="80" id="icono-scroll">
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-around " id="navbarCollapse">
-                <div class="navbar-nav ml-auto p-1">
-                    <a href="index.html" class="nav-item nav-link active fs-4">Home</a>
-                    <a href="#about" class="nav-item nav-link active fs-4">About</a>
-                    <a href="#service" class="nav-item nav-link active fs-4">Service</a>
-                    <a href="#menu" class="nav-item nav-link active fs-4">Menu</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active fs-4" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu text-capitalize">
-                            <a href="google.com" class="dropdown-item">Reservation</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link active fs-4">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-   <!-- Navbar End -->
-
-
-    <!-- Carousel Start -->
-
-
-
-    <div class="video-container p-0 mb-5">
-        <video class="my-video " src="./vid/home.mp4" autoplay muted loop></video>
-        <div style="height: 70vh;">
-            <img src="./img/logo blanco.png" class="img img-1" />
-            <div class="img img-3">
-                <p class="fs-2  text-end py-3" >BIENVENIDO A <strong class="extra-bold">LA EVOLUCIÓN DE <span style="border-bottom: solid #F27405;">TU MARCA.</span></strong></p>
-                <p class="heroText fs-5 text-end"> Traemos para ti una propuesta distinta e innovadora de <strong>marketing B2B</strong>, que te permitirá transformar por completo la identidad corporativa de tu empresa para adaptarla a las nuevas exigencias del <strong>mercado nacional e internacional.</strong>
-                </p>    
-                
-            </div>
-            
-            <div class="filiales img-4">
-                <h1 class="display-6 img-4 text-center">CONOCE NUESTRA FILIALES</h1>
-                <div class="container">
-                    <div class="row">
-                      <div class="col">
-                        <img src="./img/sucursales/globaliado_black.png" alt="" style="width: 20px; height:20px">
-                      </div>
-                      <div class="col">
-                        <img src="./img/sucursales/globaliado_blue.png" alt="" style="width: 20px; height:20px">
-                      </div>
-                      <div class="col">
-                        <img src="./img/sucursales/Panatramites_color.png" alt="" style="width: 20px; height:20px">
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            
-            
-            
+    <nav class="navbar navbar-expand-lg bg-none sticky-top shadow " id="navbar-transparente">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="img/isologo_black.png" width="50" height="80">
+          </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="#about">Conocenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="#service">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="#proyects">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="dark-overlay test"></div>
+      </nav>
         
-    </div>
-    <!-- Carousel End -->
+        
+        
+        
+        <!-- Carousel Start -->
+        <header class="min-vh-60 bg-black position-absolute w-100 position-top">
+      <video class="my-video " src="./vid/home.mp4" autoplay muted loop></video>
+      <div class="z-1 position-absolute w-100 h-100 bg-overlay">
+        <section class="container h-100 d-flex align-items-center">
+          <div class="row">
+            <section class="col-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start">
+              <img src="img/logo blanco.png" alt="Logo dimension marketing" class="img-fluid" style="width: 90%;">
+            </section>
+            
+            <section class="col-12 col-lg-6">
+              <h1 class="text-uppercase text-white fs-2 text-lg-end py-3 text-center">
+                Bienvenido a <strong class="fw-semibold">la evolución de <span class="border-orange"> tu marca</span></strong> 
+              </h1>
+              
+              <p class="text-lg-end text-center fs-5 text-white">
+                Traemos para ti una propuesta distinta e innovadora de <strong class="color_orange">marketing B2B</strong>, que te permitirá transformar por completo la identidad corporativa de tu empresa para adaptarla a las nuevas exigencias del <strong class="color_orange">mercado nacional e internacional.</strong> 
+              </p>
+            </section>
+          </div>
+        </section>
+      </div>
+    </header>
+    
+    
+    <section>
+      <h1 class="fs-3 text-center pb-2 min-vh-60">CONOCE NUESTRA FILIALES</h1>
+      <div class="container">
+          <div class="row d-flex pb-4">
+            <div class="col-6 col-lg-3 d-flex justify-content-center">
+              <img src="./img/sucursales/globaliado_black.png" alt="" style="width: 40px; height:40px">
+            </div>
+            <div class="col-6 col-lg-3 d-flex justify-content-center">
+              <img src="./img/sucursales/futuroverso.png" alt="" style="width: 40px; height:40px">
+            </div>
+            <div class="col-6 col-lg-3 d-flex justify-content-center">
+              <img src="./img/sucursales/Panatramites_color.png" alt="" style="width: 40px; height:40px">
+            </div>
+            <div class="col-6 col-lg-3 d-flex justify-content-center">
+              <img src="./img/sucursales/globaliado_blue.png" alt="" style="width: 40px; height:40px">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center pt-5">
+              <h2>NUEVAS IDEAS, NUEVOS <STRONG>HORIZONTES</STRONG></h2>
+              <p class="fs-5" style="padding: 20px 50px 0 50px ;">Queremos que tu marca llegue a donde nunca ha llegado antes. Por eso utilizamos métodos disruptivos e innovadores para aumentar tu posicionamiento en tiempo récord.</p>
+            </div>
+          </div>
+        </div>
+
+  </section>
+           
+            
+            
+       <!-- Carousel End -->
 
 
     <!-- About Start -->
@@ -89,25 +108,22 @@
                 
             </div>
             <div class="row">
-                <div class="col-lg-4 py-0 py-lg-5">
+             <!--   <div class="col-lg-4 py-0 py-lg-5">
                     <h1 class="mb-3">Our Story</h1>
                     <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
                     <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
                     <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
-                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-80 h-100" src="img/about.png" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Vision</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
+                </div>-->
+
+
+                  <div class="col-lg-6 py-0 py-lg-4 offset-md-6 fs-6">
+                    <h1 class="mb-3 color_orange">QUIÉNES SOMOS</h1>
+                    <p>Con nosotros tendrás todo lo necesario para ir un paso más allá. Ofrecemos servicios enfocados al <strong>marketing B2B</strong>, que te permitirán construir cimientos sólidos para <strong>la identidad corporativa de tu organización.</strong></p>
+                    <p>Te ayudamos a adaptar tu marca a las nuevas exigencias del mercado y llevar tu empresa a su máximo potencial.</p>
+                    <p><strong>Dimension Marketing</strong> es una agencia creativa dedicada a crear estrategias comunicacionales innovadoras que posicionan a los clientes en su respectivo rubro</p>
+                    <p>El proceso de renovación de marcas es de carácter integral, incluyendo <strong>elementos gráficos, corporativos y de comunicación interna/externa.</strong></p>
+                  </div>
+
             <div class="row">
                 <div class="col-lg-4 py-0 py-lg-5">
                     <h1 class="mb-3">Our Story</h1>
@@ -146,19 +162,20 @@
             const icono_inicial = document.getElementById('icono-inicial');
             const icono_scroll = document.getElementById('icono-scroll');
             const scrollPosition = window.pageYOffset;
+            console.log(scrollPosition);
           
             if (scrollPosition > 80) {
-              navbar.classList.add('bg-white');
+              navbar.classList.add('bg-body-tertiary');
               navbar.classList.remove('bg-none');
-              navbar.classList.remove('navbar-dark');
-              navbar.classList.add('navbar-light');
+          /*    navbar.classList.remove('navbar-dark');
+              navbar.classList.add('navbar-light');*/
               icono_inicial.style.display = 'none';
               icono_scroll.style.display = 'block';
             } else {
-                navbar.classList.remove('bg-white');
+                navbar.classList.remove('bg-body-tertiary');
                 navbar.classList.add('bg-none');
-                navbar.classList.remove('navbar-light');
-                navbar.classList.add('navbar-dark');
+              /*  navbar.classList.remove('navbar-light');
+                navbar.classList.add('navbar-dark');*/
                 icono_inicial.style.display = 'block';
                 icono_scroll.style.display = 'none';
             }
