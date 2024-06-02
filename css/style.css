@@ -41,17 +41,6 @@ body{
 
 }
 
-.dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 40%, rgb(255, 255, 255) 100%);
-  background-color: rgba(0, 0, 0, 0.65);
-  z-index: 1; /* Ensure it's above the video */
-
-}
 
 .video-container .img {
   position: absolute;
@@ -86,25 +75,6 @@ body{
   color: white;
 }
 
-  .overlay-top::before,
-.overlay-bottom::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 15px;
-  left: 0;
-  z-index: 1;
-}
-
-.overlay-top::before {
-  top: -1px;
-  background: url(../img/overlay-top.png);
-}
-
-.overlay-bottom::after {
-  bottom: -1px;
-  background: url(../img/overlay-bottom.png);
-}
 
 #navbar-transparente {
   background-color: transparent;
@@ -113,6 +83,10 @@ body{
 
 .min-vh-60{
   min-height: 60vh;
+}
+
+.min-vh-50{
+  min-height: 50vh;
 }
 
 
