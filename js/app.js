@@ -1,37 +1,3 @@
-window.addEventListener('scroll', function() {
-    const navbar = document.getElementById('navbar-transparente');
-    const nav_link = document.querySelectorAll('.nav-link');
-    const icono_inicial = document.getElementById('icono-inicial');
-    const icono_scroll = document.getElementById('icono-scroll');
-    const scrollPosition = window.pageYOffset;
-    
-  
-    if (scrollPosition > 80) {
-      navbar.classList.add('bg-body-tertiary');
-      navbar.classList.remove('bg-none');
-      nav_link.forEach(item => {
-          item.classList.remove('text-white');
-          item.classList.add('text-dark-grey');
-          
-        
-      });
-      icono_inicial.classList.add('d-none');
-      icono_scroll.classList.remove('d-none');
-    } else {
-        navbar.classList.remove('bg-body-tertiary');
-        navbar.classList.add('bg-none');
-        nav_link.forEach(item => {
-            item.classList.add('text-white');
-            item.classList.remove('text-dark-grey');        
-            
-          
-        });
-        icono_inicial.classList.remove('d-none');
-      icono_scroll.classList.add('d-none')
-      
-    }
-  });
-
   const imgglobaliado = document.getElementById('imgglobaliado');
   imgglobaliado.addEventListener('mouseover', () => {
     imgglobaliado.src = './img/sucursales/svg/Isologo globaliado color.svg';

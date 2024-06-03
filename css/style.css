@@ -22,16 +22,8 @@ body{
   font-family: 'Nova_Regular';
 }
 
-  .video-container h1{
-    z-index: 4;
-  }
-
-
 .my-video {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
     object-fit: cover; /* Maintain aspect ratio and cover the container */
@@ -42,26 +34,10 @@ body{
 }
 
 
-.video-container .img {
-  position: absolute;
-  top: 20%;
-  max-width: 550px;
-  z-index: 3;
-}
-.video-container .filiales {
-  position: absolute;
-  top: 70%;
-  z-index: 3;
-  left:25%;
-  right: 25%;
-  
-}
 
 .img-1 {
   left: 10%;
 }
-
-
 
 .img-3 {
   right: 10%;
@@ -75,11 +51,6 @@ body{
   color: white;
 }
 
-
-#navbar-transparente {
-  background-color: transparent;
-  transition: background-color 0.9s ease;
-}
 
 .min-vh-60{
   min-height: 60vh;
@@ -118,9 +89,6 @@ body{
   border-bottom: 3px solid #F27405;
 }
 /* Estado opaco */
-#navbar-transparente.navbar-opaco {
-  background-color: white;
-}
 
 .position-top{
   top: 0;
@@ -255,9 +223,6 @@ article[class*="gallery-item-"]:hover{
 }
 
 /* Estado opaco */
-#navbar-transparente.navbar-opaco {
-  background-color: white;
-}
 
 .cards-wrapper {
   display: flex;
