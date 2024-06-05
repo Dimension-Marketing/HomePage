@@ -251,6 +251,20 @@ article[class*="gallery-item-"]:hover{
   transform: translateY(-50%);
 }
 
+.wrap{
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: end;
+  background: url(../img/isologo_black_horizontal.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wrap-text{
+  text-align: end;
+  padding-top: 8rem;
+}
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
 
