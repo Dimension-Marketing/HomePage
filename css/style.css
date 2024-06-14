@@ -148,9 +148,14 @@ body{
 .quienes-somos-texto{
   font-size: 21px;
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 40%;
-  transform: translate(10%, -50%);
+  transform: translate(-10%, -50%);
+}
+
+.img-quienessomos{
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
 }
 
 .about{
@@ -327,6 +332,9 @@ article[class*="gallery-item-"]:hover{
     width: 30px;
   height: 30px; 
   }
+  .quienessomos-p-1{
+    font-size: 12px;
+  }
  }
 @media (min-width: 576px) { 
   .contactanos, .container-custom{
@@ -439,6 +447,11 @@ article[class*="gallery-item-"]:hover{
       border-radius: 30px;
     }
  }
+@media (max-width: 992px) { 
+  .quienessomos-p-2, .quienessomos-p-3, .quienessomos-p-4{
+    display: none;
+  }
+ }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
@@ -451,6 +464,11 @@ article[class*="gallery-item-"]:hover{
 @media (min-width: 1400px) { 
   .contactanos, .container-custom {
     height: 80vh;
+  }
+ }
+@media (max-width: 1600px) { 
+  .quienes-somos-texto{
+    font-size: 18px;
   }
  }
 @media (min-width: 1800px) { 
