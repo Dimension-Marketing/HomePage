@@ -23,19 +23,19 @@
           <div class="collapse navbar-collapse" id="navbarNav" >
             <ul class="navbar-nav ms-lg-auto">
               <li class="nav-item">
-                <a class="nav-link fs-4 hover-orange" href="#">Home</a>
+                <a class="nav-link fs-4" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-4 hover-orange" href="#about">Conocenos</a>
+                <a class="nav-link fs-4" href="#about">Conocenos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-4 hover-orange" href="#service">Servicios</a>
+                <a class="nav-link fs-4" href="#service">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-4 hover-orange" href="#proyectos">Proyectos</a>
+                <a class="nav-link fs-4 " href="#proyectos">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-4 hover-orange" href="#contacto">Contacto</a>
+                <a class="fs-4 btn btn-dark rounded-pill" target="_blank" href="https://api.whatsapp.com/send/?phone=%2B584121097833&text&type=phone_number&app_absent=0">Contáctanos</a>
               </li>
             </ul>
           </div>
@@ -75,16 +75,16 @@
         <h2 class="fs-3 text-center pt-4">CONOCE NUESTRA FILIALES</h2>
         <div class="row d-flex pb-4 pt-5">
           <div class="col-6 col-lg-3 d-flex justify-content-center">
-            <img src="./img/sucursales/svg/Isologo globaliado black.svg" style="width: 70px; height:70px" id="imgglobaliado">
+            <a href=" https://globaliado.com/" target="_blank"><img src="./img/sucursales/Isologo globaliado black.svg" style="width: 70px; height:70px" id="imgglobaliado"></a>
           </div>
           <div class="col-6 col-lg-3 d-flex justify-content-center">
-            <img src="./img/sucursales/svg/FUTUROVERSO BLACK SVG.svg" alt="" style="width: 70px; height:70px" id="imgfuturoverso">
+            <a href="https://futuroverso.com/" target="_blank"><img src="./img/sucursales/FUTUROVERSO BLACK SVG.svg" alt="" style="width: 70px; height:70px" id="imgfuturoverso"></a>
           </div>
           <div class="col-6 col-lg-3 d-flex justify-content-center">
-            <img src="./img/sucursales/svg/ISOLOGO BLACK PANATRAMITES SVG.svg" alt="" style="width: 70px; height:70px" id="imgpanatramites">
+            <a href="https://www.instagram.com/panatramite/?igsh=MTAwZDRvN3lzcmI1MA%3D%3D " target="_blank"><img src="./img/sucursales/ISOLOGO BLACK PANATRAMITES SVG.svg" alt="" style="width: 70px; height:70px" id="imgpanatramites"></a>
           </div>
           <div class="col-6 col-lg-3 d-flex justify-content-center">
-            <img src="./img/sucursales/globaliado_blue.png" alt="" style="width: 70px; height:70px" id="nose">
+            <a href="" target="_blank"><img src="./img/sucursales/Isologo globaliado black.svg" alt="" style="width: 70px; height:70px" id="nose"></a>
           </div>
         </div>
           <div class="row">
@@ -107,17 +107,18 @@
         </section>
       
         <section class="row py-2">
-          <div class="col-12 col-lg-6"></div>
-          <div class="col-12 col-lg-6">
-            <h2 class="text-uppercase text-orange fs-1">Quiénes Somos</h2>
-            <p>Con nosotros tendrás todo lo necesario para ir un paso más allá. Ofrecemos servicios enfocados al <strong>marketing B2B</strong>, que te permitirán construir cimientos sólidos para <strong>la identidad corporativa de tu organización.</strong></p>
-            <p>Te ayudamos a adaptar tu marca a las nuevas exigencias del mercado y llevar tu empresa a su máximo potencial.</p>
-            <p><strong>Dimension Marketing</strong> es una agencia creativa dedicada a crear estrategias comunicacionales innovadoras que posicionan a los clientes en su respectivo rubro</p>
-            <p>El proceso de renovación de marcas es de carácter integral, incluyendo <strong>elementos gráficos, corporativos y de comunicación interna/externa.</strong></p>
+          <div class="cotainer quienes-somos">
+            <img src="./img/quienessomos.png" class="img-quienessomos" alt="Quienes Somos" srcset="">
+            <div class="quienes-somos-texto">
+              <p>Con nosotros tendrás todo lo necesario para ir un paso más allá. Ofrecemos servicios enfocados al <strong>marketing B2B</strong>, que te permitirán construir cimientos sólidos para <strong>la identidad corporativa de tu organización.</strong></p>
+              <p>Te ayudamos a adaptar tu marca a las nuevas exigencias del mercado y llevar tu empresa a su máximo potencial.</p>
+              <p><strong>Dimension Marketing</strong> es una agencia creativa dedicada a crear estrategias comunicacionales innovadoras que posicionan a los clientes en su respectivo rubro</p>
+              <p>El proceso de renovación de marcas es de carácter integral, incluyendo <strong>elementos gráficos, corporativos y de comunicación interna/externa.</strong></p>
+            </div>
           </div>
         </section>
 
-        <section class="row pt-5">
+        <section class="row pt-1">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -125,7 +126,7 @@
                   ¿Quieres saber más de nosotros
                 </button>
               </h2>
-              <div id="collapseSix" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <p class="fs-md-5"><strong>Misión: </strong>Ofrecer una alternativa refrescante y moderna a todos los potenciales clientes que deseen mejorar la imagen de su marca al igual que su posicionamiento digital.
                   </p>
@@ -193,7 +194,7 @@
                   ¿Dónde están ubicados?
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   Nuestra sede principal está ubicada en la oficina 15-12, Torre Humboldt, Caracas.
                 </div>
@@ -276,7 +277,7 @@
               <div class="cards-wrapper">
                 <div class="card">
                   <div class="align-self-center p-4">
-                    <img src="./img/prueba testimonios/img.jpeg" class="rounded-circle " style="height: 80px; width:80px" alt="...">
+                    <img src="./img/prueba testimonios/imagen1.jpg" class="rounded-circle " style="height: 80px; width:80px" alt="...">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -284,8 +285,8 @@
                   </div>
                 </div>
                 <div class="card d-none d-md-block">
-                  <div class="p-4">
-                    <img src="./img/prueba testimonios/img2.jpeg" class="rounded-circle" style="height: 75px; width:75px" alt="...">
+                  <div class="d-flex justify-content-center p-4">
+                    <img src="./img/prueba testimonios/imagen2.jpg" class="rounded-circle  align-self-center" style="height: 75px; width:75px" alt="...">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -293,8 +294,8 @@
                   </div>
                 </div>
                 <div class="card d-none d-md-block">
-                  <div class="align-self-center p-4">
-                    <img src="./img/prueba testimonios/img3.jpeg" class="align-self-center rounded-circle" style="height: 75px; width:75px" alt="...">
+                  <div class="d-flex justify-content-center p-4">
+                    <img src="./img/prueba testimonios/imagen3.jpg" class="align-self-center rounded-circle" style="height: 75px; width:75px" alt="...">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -306,8 +307,8 @@
             <div class="carousel-item">
               <div class="cards-wrapper">
                 <div class="card">
-                  <div class="align-self-center p-4">
-                    <img src="./img/prueba testimonios/img1.PNG" class="align-self-center rounded-circle" style="height: 75px; width:75px" alt="...">
+                  <div class="d-flex justify-content-center p-4">
+                    <img src="./img/prueba testimonios/imagen4.jpg" class="align-self-center rounded-circle" style="height: 75px; width:75px" alt="...">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -315,21 +316,12 @@
                   </div>
                 </div>
                 <div class="card d-none d-md-block">
-                  <div class="align-self-center p-4">
-                    <img src="./img/prueba testimonios/img2.PNG" class="align-self-center rounded-circle" style="height: 75px; width:75px" >
+                  <div class="d-flex justify-content-center p-4">
+                    <img src="./img/prueba testimonios/imagen5.jpg" class="align-self-center rounded-circle" style="height: 75px; width:75px" >
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">¡Desde que realicé mi primera campaña publicitaria con Dimension marketing mis ventas se han triplicado!</p>
-                  </div>
-                </div>
-                <div class="card d-none d-md-block">
-                  <div class="align-self-center p-4">
-                    <img src="./img/prueba testimonios/img3.PNG" class="align-self-center rounded-circle" style="height: 75px; width:75px" alt="...">
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   </div>
                 </div>
               </div>
@@ -353,7 +345,7 @@
       <div class="container-custom">
         <div class="button-wrapper">
             <a class="btn contact-button" href="https://api.whatsapp.com/send/?phone=%2B584121097833&text&type=phone_number&app_absent=0">
-              <svg style="width: 50px; height: 50px; fill:white;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+              <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
               CONTÁCTANOS
             </a>
         </div>
@@ -374,12 +366,12 @@
 
       <div class="container">
           <div class="row justify-content-between d-flex align-items-center">
-            <span class="mb-3 mb-md-0 col-6 text-white">Contacto: +1 (786) 794-4942. Email: dimensionmarketing@gmail.com</span>
+            <span class="mb-3 mb-md-0 col-6 text-white">Contacto: +1 (786) 794-4942. <br> Email: dimensionmarketing@gmail.com</span>
             
             <ul class="nav  align-self-end list-unstyled col-4">
               <li class="text-white">Follow us!</li>
               <li class="ms-3">
-                <a class="text-body-secondary" href="#">
+                <a class="text-body-secondary" target="_blank" href="https://www.instagram.com/dimensionm.ve?igsh=eHkzcXVlMGFrN29l">
                   <svg style="fill: white;  width: 50px; height: 50px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                     <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
                   </svg>
@@ -394,7 +386,7 @@
     
   <footer class="d-flex flex-wrap justify-content-between p-3" style="background-color: rgba(127,49,0);">
     <div class="container">
-      <p class="text-center">dimensionmarketing 2024. Todos los derechos reservados.</p>
+      <p class="text-center text-white">Dimension Marketing digital group 2024 Copyright &copy;</p>
     </div>
   </footer>
     
